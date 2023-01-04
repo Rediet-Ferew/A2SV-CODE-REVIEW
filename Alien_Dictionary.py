@@ -1,5 +1,4 @@
 class Solution:
-    
     def isAlienSorted(self, words: List[str], order: str) -> bool:
         alien_dict = {}
         for i, c in enumerate(order):
